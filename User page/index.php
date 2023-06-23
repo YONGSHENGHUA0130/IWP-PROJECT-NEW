@@ -16,8 +16,7 @@ session_start();
 <body>
 
 	<a href="logout.php">Logout</a>
-	<h1>This is the index page</h1>
-
+	
 	
 </body>
 </html>
