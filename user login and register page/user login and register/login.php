@@ -8,14 +8,14 @@ session_start();
 
 	if($_SERVER['REQUEST_METHOD'] == "POST")
 	{
-		//something was posted
+		
 		$user_name = $_POST['user_name'];
 		$password = $_POST['password'];
 
 		if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
 		{
 
-			//read from database
+			
 			$query = "select * from users where user_name = '$user_name' limit 1";
 			$result = mysqli_query($con, $query);
 
@@ -30,7 +30,7 @@ session_start();
 					{
 
 						$_SESSION['user_id'] = $user_data['user_id'];
-						header("Location: index.php");
+						header("Location: User page/home.html");
 						die;
 					}
 				}
@@ -57,11 +57,14 @@ session_start();
 	
 	#text{
 
-		height: 25px;
-		border-radius: 5px;
-		padding: 4px;
-		border: solid thin #aaa;
-		width: 100%;
+	width: 300px;
+	background: #fff;
+	margin: 10px auto;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 16px;
+	transform: scale(1.2);
+	box-shadow: 0px 0px 0px 0px #cdcdcd;
 	}
 
 	#button{
@@ -74,11 +77,13 @@ session_start();
 	}
 
 	#box{
-
-		background-color: grey;
-		margin: auto;
-		width: 300px;
-		padding: 20px;
+        
+    text-align: center;
+	height: 100vh;
+	width: 100%;
+	float: left;
+	background-image: url("../images/Genting.png");
+	background-size: 100% 100% ;
 	}
 
 	</style>
