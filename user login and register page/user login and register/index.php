@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -8,6 +9,10 @@
 </head>
 <body>
 
+<a href="logout.php">Logout</a>
+
+<br>
+Hello, Username
 <div class="login-page">
   <div class="form">
     <form class="register-form">
@@ -30,3 +35,8 @@
 
 </body>
 </html>
+
+<?php 
+
+?>
+
