@@ -1,0 +1,141 @@
+#history h4
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+#history 
+{
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+}
+  
+#history p 
+{
+    color: #fff;
+    font-size: 18px;
+}
+
+#history h3
+{
+    font-size: 40px;
+    color:aliceblue;
+}
+
+#history h1
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.heading1
+  {
+    width: 30%;
+    background: #fff;
+    background-color:midnightblue;
+    margin: 10px auto;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 0px #cdcdcd;
+}
+
+.body1 
+{   
+
+    width: 80%;
+    box-sizing: border-box;
+    background-image:url('../images/GH03.jpg') ;
+    background-size: cover;
+    margin: 10px 150px;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing:content-box;
+        
+}
+
+.body1 p
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    
+}
+.heading2
+  {
+    width: 30%;
+    background: #fff;
+    background-color:midnightblue;
+    margin: 30px auto;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px #cdcdcd;
+}
+
+.body2
+{   
+
+    width: 80%;
+    box-sizing: border-box;
+    background-image:url('../images/GH03.jpg') ;
+    background-size: cover;
+    margin: 10px 150px;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing:content-box;
+  
+        
+}
+
+.introhotel tr,td
+{
+    border: 3px solid #fff;
+    margin: 20px 20px;
+    padding: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.introhotel th
+{
+    border: 3px solid #fff;
+    margin: 20px 20px;
+    padding: 20px;
+    font-weight:bold;
+    color: black;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+
+.body3
+{   
+
+    width: 80%;
+    box-sizing: border-box;
+    background-image:url('../images/GH03.jpg') ;
+    background-size: cover;
+    margin: 10px 150px;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing:content-box;
+        
+}
+
+.body2 p
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}

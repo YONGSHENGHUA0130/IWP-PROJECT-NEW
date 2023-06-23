@@ -1,0 +1,81 @@
+section
+{
+    padding: 70px 20%;
+}
+
+.home
+{
+    width: 100%;
+    background: url(../images/bg2.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.bodyus
+{
+
+    width: 100%;    
+}
+.bodyus p{
+    text-decoration: none;
+    color:#666;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.bodyus h1
+{
+    font-size: 40px;
+    justify-content: space-around;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.g16
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    border:0px;
+}
+
+.member1,.member2,.member3
+{
+    width: 100%;
+    display:inline;
+    text-align: center;
+    padding: 20px;
+}
+
+.member1 h2,.member2 h2,.member3 h2
+{
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    color:darkcyan;
+
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding:0px;
+}
+.member1 img,.member2 img,.member3 img{
+    padding: 0px;
+    border-radius: 20px;
+    width: 75%;
+    height: 70%;
+}
+
+.member1 p,.member2 p,.member3 p
+{
+    width: 100%;
+    text-decoration: none;
+    color:brown;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 12px 40px;
+    background-color:aquamarine;
+    font-family: Roboto;
+
+}

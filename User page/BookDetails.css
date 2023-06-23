@@ -1,0 +1,156 @@
+body {
+    color: #666666;
+    font-size: 17px;
+    font-family: Roboto;
+    line-height: 1.5;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(236, 238, 227);
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0
+}
+h1 {
+    font-size: 28px
+}
+h2 {
+    font-size: 26px;
+    font-weight: bolder;
+}
+.layout_padding {
+padding-top: 90px;
+padding-bottom: 40px;
+}
+@media (min-width: 800px) {
+.container {
+  max-width: 780px;
+}
+}
+
+@media (min-width: 900px) {
+.container {
+  max-width: 880px;
+}
+}
+.book_taital {
+width: 100%;
+float: right;
+font-size: 40px;
+color: #1d1c1c;
+font-weight: bold;
+padding-bottom: 20px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 10px;
+}
+.book_text {
+width: 100%;
+float: left;
+font-size: 20px;
+color: #010304;
+margin: 0px;
+text-align: center;
+}
+.book_text2 {
+width: 100%;
+float: left;
+font-size: 20px;
+color: #0d5e87;
+margin: 0px;
+text-align: left;
+font-weight: 600;
+}
+.book_text3 {
+width: 100%;
+float: right;
+font-size: 20px;
+color: #644210;
+margin: 0px;
+text-align: left;
+font-weight:600;
+}
+.col-lg-3 {
+-ms-flex: 0 0 50%;
+flex:0 0 35%;
+max-width: 80%;
+}
+.header_bt {
+display:inline-block;
+border-radius: 70px;
+background-color: white;
+width: 100px;
+height: 20px;
+color: black;
+text-align: center;
+font-size: 15px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 0px;
+}
+.header_section {
+width: 100%;
+float: left;
+background-image: url(images/genting_banner3.gif);
+height: auto;
+background-size: 100%;
+background-repeat: no-repeat;
+border-radius:8px
+}
+.bookdetailbtn
+{
+display:inline-block;
+border-radius: 4px;
+background-color: rgb(1, 1, 18);
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 15px;
+padding: 5px;
+width: 100px;
+height: auto;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+.bookdetailbtn:hover {
+background-color: #4CAF50;
+color: white;
+}
+.header_bt:hover
+{
+color:aliceblue;
+background-color: rgb(74, 182, 218);
+}
+.bookdetail_form:hover {
+border:3px solid #b52323 ;
+box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+
+}
+.bookdetail_form
+{
+height: 20px;
+width:150px;
+border:2px solid #0b3a4a;
+margin-left: 30px;
+text-align: center;
+}
+.bookdetail_form[type=text]:focus
+{
+border: 4px solid #1b0d17;
+}

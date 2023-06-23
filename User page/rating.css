@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    display: grid;
+    height: 100%;
+    text-align:center;
+    background: url(../images/background1.png);
+    background-size: cover;
+    margin:0%;
+}
+
+.headingrate h1
+{
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #eee;
+    text-decoration: none;
+}
+
+.headingrate h2
+{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+.heading2rate
+{
+    width: 100%;
+    float: left;
+    font-size: 70%;
+    margin: 20px;
+    color: #fee;
+}
+
+.container
+{   
+    place-items: center;
+    height: 90%;
+    position: relative;
+    width: 100%;
+    background: #111;
+    padding: 10px 30px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.rate_details .label
+{
+    font-size: 30px;
+    color: #eee;
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+
+
+.body .rate_details
+{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+
+}
+
+.body .rate_details textarea
+{
+    height:60%;
+    width:30%;
+    outline:none;
+    border:1px solid #333;
+    background:#1b1b1b;
+    color: #eee;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
+
+
+.post .heading2rate
+{
+    display: block;
+}
+.container .post
+{
+    display: none;
+}
+.container .text{
+    font-size: 16px;
+    color: #666;
+    font-weight:  500;
+}
+
+.container .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 25px;
+    color: #666;
+    font-weight:  500;
+    cursor: pointer;
+}
+
+.container .edit:hover{
+    text-decoration: underline;
+}
+.container .star-widget input
+{
+    display: none;
+}
+
+.star-widget label
+{
+    font-size: 40px;
+    color: #444;
+    padding: 15px;
+    float: right;
+    transition: all 0.2s ease;
+}
+
+.star-widget input:not(:checked) ~ label:hover,
+.star-widget input:not(:checked) ~ label:hover ~ label
+{
+    color: #fd4;
+}
+
+input:checked ~ label
+{
+    color: #fd4;
+}
+
+input#rate-5:checked ~ label
+{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+}
+
+input#rate-1:checked ~ form header::before{
+    content: " Hate It 😡";
+}
+input#rate-2:checked ~ form header::before{
+    content: " Dont Like It 😣";
+}
+input#rate-3:checked ~ form header::before{
+    content: " Awesome 😄 ";
+}
+input#rate-4:checked ~ form header::before{
+    content: " Like It 😊";
+}
+input#rate-5:checked ~ form header::before{
+    content: " Love It 😍";
+}
+
+.container form{
+    display: none;
+}
+
+input:checked ~ form{
+    display: block;
+}
+
+form header{
+    width: 100%;
+    font-size: 25px;
+    color:#fe7;
+    font-weight: 500;
+    margin: 5px 0px 20px 0px;
+    text-align:center;
+    transition: all 0.2s ease;
+
+}
+
+form .textarea
+{
+    height:100px;
+    width:100%;
+    overflow: hidden;
+
+}
+
+form .textarea textarea{
+    height:100%;
+    width:100%;
+    outline:none;
+    border:1px solid #333;
+    background: #222;
+    color: #eee;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+}
+
+form .btn
+{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+
+form .btn button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    background: #222;
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor:pointer;
+    transition: all 0.3s case;
+
+}
+form .btn button:hover{
+
+    background-color: #1b1b1b;
+}
