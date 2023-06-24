@@ -22,10 +22,8 @@ session_start();
 
 			header("Location: login.php");
 			die;
-		}else
-		{
-			echo "Please enter some valid information!";
 		}
+		
 	}
 ?>
 
@@ -33,7 +31,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Signup</title>
+	<title>Register</title>
 </head>
 <body>
 
@@ -53,14 +51,15 @@ session_start();
 
 	#button{
 
-		padding: 10px;
-		width: 100px;
+		padding: 15px;
+		width: 150px;
 		color: white;
-		background-color: lightblue;
+		background-color: burlywood;
 		border: none;
 	}
 
 	#box{
+	
     text-align: center;
 	height: 100vh;
 	width: 100%;
@@ -74,14 +73,14 @@ session_start();
 	<div id="box">
 		
 		<form method="post">
-			<div style="font-size: 20px;margin: 10px;color: white;">Signup</div>
+			<div style="font-size: 30px;margin: 30px;color: white;">Register</div>
 
 			<input id="text" type="text" name="user_name"><br><br>
 			<input id="text" type="password" name="password"><br><br>
 
-			<input id="button" type="submit" value="Signup"><br><br>
+			<input id="button" type="submit" value="Register"><br><br>
 
-			<a href="login.php">Click to Login</a><br><br>
+			<a href="login.php" style="font-size: 20px;margin: 10px;color: black;">Click to Login</a><br><br>
 		</form>
 	</div>
 </body>

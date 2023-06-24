@@ -35,12 +35,8 @@ session_start();
 					}
 				}
 			}
-			
-			echo "wrong username or password!";
-		}else
-		{
-			echo "wrong username or password!";
 		}
+		
 	}
 
 ?>
@@ -57,22 +53,22 @@ session_start();
 	
 	#text{
 
-	width: 300px;
+		width: 300px;
 	background: #fff;
 	margin: 10px auto;
 	border-radius: 10px;
 	box-sizing: border-box;
-	padding: 16px;
+	padding: 15px;
 	transform: scale(1.2);
 	box-shadow: 0px 0px 0px 0px #cdcdcd;
 	}
 
 	#button{
 
-		padding: 10px;
-		width: 100px;
+		padding: 15px;
+		width: 150px;
 		color: white;
-		background-color: lightblue;
+		background-color:burlywood ;
 		border: none;
 	}
 
@@ -91,14 +87,14 @@ session_start();
 	<div id="box">
 		
 		<form method="post">
-			<div style="font-size: 20px;margin: 10px;color: white;">Login</div>
+			<div style="font-size: 30px;margin: 30px;color: white;">Login</div>
 
 			<input id="text" type="text" name="user_name"><br><br>
 			<input id="text" type="password" name="password"><br><br>
 
 			<input id="button" type="submit" value="Login"><br><br>
 
-			<a href="signup.php">Click to Signup</a><br><br>
+			<a href="signup.php"  style="font-size: 20px;margin: 10px;color: black;">Click to Register</a><br><br>
 		</form>
 	</div>
 </body>
