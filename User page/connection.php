@@ -3,7 +3,7 @@
  $dbhost = "localhost";
  $dbuser = "root";
  $dbpass = "";
- $dbname = "login";
+ $dbname = "gentinghighland";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {
