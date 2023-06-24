@@ -1,6 +1,6 @@
 <?php
 
-function check_login($con)
+ function check_login($con)
 {
 
 	if(isset($_SESSION['user_id']))
@@ -24,7 +24,7 @@ function check_login($con)
 
 }
 
-function random_num($length)
+ function random_num($length)
 {
 
 	$text = "";

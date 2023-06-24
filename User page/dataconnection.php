@@ -1,9 +1,9 @@
 <?php
 
 
-$connect = mysqli_connect("localhost","root","","gentinghighland");
+ $connect = mysqli_connect("localhost","root","","gentinghighland");
 
-if($connect)
+ if($connect)
 {
   echo("Connect successfully!");
 }
