@@ -15,7 +15,6 @@ session_start();
 		if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
 		{
 
-			
 			$query = "select * from users where user_name = '$user_name' limit 1";
 			$result = mysqli_query($con, $query);
 
@@ -53,8 +52,8 @@ session_start();
 	
 	#text{
 
-		width: 300px;
-	background: #fff;
+	width: 300px;
+	background: white;
 	margin: 10px auto;
 	border-radius: 10px;
 	box-sizing: border-box;
